@@ -39,23 +39,23 @@ The key goals of the oscpack library are:
 
 Here's a quick run down of the key files:
 
-osc/OscReceivedElements -- classes for parsing a packet
-osc/OscPrintRecievedElements -- iostream << operators for printing packet elements
-osc/OscOutboundPacketStream -- a class for packing messages into a packet
-osc/OscPacketListener -- base class for listening to OSC packets on a UdpSocket
-ip/IpEndpointName -- class that represents an IP address and port number
-ip/UdpSocket -- classes for UDP transmission and listening sockets
-tests/OscUnitTests -- unit test program for the OSC modules
-tests/OscSendTests -- examples of how to send messages
-tests/OscReceiveTest -- example of how to receive the messages sent by OSCSendTests
-examples/OscDump -- a program that prints received OSC packets
-examples/SimpleSend -- a minimal program to send an OSC message
+osc/OscReceivedElements -- classes for parsing a packet\
+osc/OscPrintRecievedElements -- iostream << operators for printing packet elements\
+osc/OscOutboundPacketStream -- a class for packing messages into a packet\
+osc/OscPacketListener -- base class for listening to OSC packets on a UdpSocket\
+ip/IpEndpointName -- class that represents an IP address and port number\
+ip/UdpSocket -- classes for UDP transmission and listening sockets\
+tests/OscUnitTests -- unit test program for the OSC modules\
+tests/OscSendTests -- examples of how to send messages\
+tests/OscReceiveTest -- example of how to receive the messages sent by OSCSendTests\
+examples/OscDump -- a program that prints received OSC packets\
+examples/SimpleSend -- a minimal program to send an OSC message\
 examples/SimpleReceive -- a minimal program to receive an OSC message
 
-osc/ contains all of the OSC related classes
+osc/ contains all of the OSC related classes\
 ip/ contains the networking classes
 
-ip/windows contains the Windows implementation of the networking classes
+ip/windows contains the Windows implementation of the networking classes\
 ip/posix contains the POSIX implementation of the networking classes
 
 
